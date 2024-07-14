@@ -13,6 +13,8 @@
 		}
 	},
 	"imports": {
-		"myst-common": "npm:myst-common@1.4.7"
+		"myst-common": "npm:myst-common@1.4.7",
+		"@myst-theme/providers": "npm:@myst-theme/providers@0.8.2",
+		"react": "npm:react"
 	}
 }
