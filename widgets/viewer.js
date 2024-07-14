@@ -11,5 +11,6 @@ export default {
 		let viewer = await vizarr.createViewer(div);
 		viewer.addImage({ source: model.get("source") });
 		el.appendChild(div);
+		return () => viewer.destory?.();
 	},
 };
