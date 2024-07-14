@@ -4,9 +4,9 @@ the widget should appear below 👇
 
 ::::{figure}
 :label: fig1
-:::{any} https://esm.sh/gh/manzt/anymyst/widgets/counter.js
+:::{any} https://esm.sh/gh/manzt/anymyst/widgets/vizarr.mjs
 {
-  "value": 42
+  "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr"
 }
 :::
 capiton
