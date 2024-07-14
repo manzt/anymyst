@@ -1,0 +1,18 @@
+{
+	"lock": false,
+	"compilerOptions": {
+		"checkJs": true,
+		"allowJs": true
+	},
+	"fmt": {
+		"useTabs": true
+	},
+	"lint": {
+		"rules": {
+			"exclude": ["prefer-const"]
+		}
+	},
+	"imports": {
+		"myst-common": "npm:myst-common@1.4.7"
+	}
+}
