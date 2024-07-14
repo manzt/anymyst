@@ -2,12 +2,18 @@
 
 the widget should appear below 👇
 
-::::{figure} :label: fig1 :::{any}
-https://esm.sh/gh/manzt/anymyst/widgets/viewer.js { "source":
-"https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr" } ::: capiton ::::
+::::{figure}
+:label: fig1
+:::{any} https://manzt.github.io/anymyst/widgets/viewer.js
+{ "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr" }
+::: capiton
+::::
 
 and above 👆🏻
 
-::::{figure} :label: fig1 :::{any}
-https://esm.sh/gh/manzt/anymyst/widgets/counter.js { "value": 42 } ::: capiton
+::::{figure}
+:label: fig2
+:::{any} https://manzt.github.io/anymyst/widgets/counter.js
+{ "value": 42 }
+::: capiton
 ::::

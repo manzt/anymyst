@@ -5,7 +5,8 @@
 		"allowJs": true
 	},
 	"fmt": {
-		"useTabs": true
+		"useTabs": true,
+		"exclude": ["*.md"]
 	},
 	"lint": {
 		"rules": {
