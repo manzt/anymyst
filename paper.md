@@ -4,7 +4,7 @@ the widget should appear below 👇
 
 ::::{figure}
 :label: fig1
-:::{any} https://esm.sh/gh/manzt/anymyst/widgets/vizarr.mjs
+:::{any} https://esm.sh/gh/manzt/anymyst/widgets/vizarr.js
 {
   "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr"
 }
