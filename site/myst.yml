@@ -3,6 +3,6 @@ project:
   id: anymyst-example
   title: testing 1, 2, 3
   plugins:
-    - plugin.mjs
+    - ../plugin.mjs
 site:
   template: book-theme
