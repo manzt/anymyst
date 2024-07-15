@@ -6,12 +6,13 @@
 	},
 	"fmt": {
 		"useTabs": true,
-		"exclude": ["*.md"]
+		"exclude": ["*.md", "_build"]
 	},
 	"lint": {
 		"rules": {
 			"exclude": ["prefer-const"]
-		}
+		},
+		"exclude": ["*.md", "_build"]
 	},
 	"imports": {
 		"myst-common": "npm:myst-common@1.4.7",

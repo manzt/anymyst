@@ -15,11 +15,11 @@ export default {
 				type: String,
 				required: true,
 			},
-			validate(data, vfile) {
+			validate(data, _vfile) {
 				// TODO: validate the URL for the esm
 				return data;
 			},
-			run(data, vfile, opts) {
+			run(data, _vfile, _opts) {
 				const body = /** @type {string} */ (data?.body ?? "{}");
 				return [
 					{
