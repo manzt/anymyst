@@ -10,6 +10,13 @@ export default {
 				required: true,
 				doc: "",
 			},
+			options: {
+				styles: {
+					type: String,
+					required: false,
+					doc: "URL to the CSS file",
+				},
+			},
 			body: {
 				doc: "JSON object with props to pass down to the component",
 				type: String,
@@ -25,6 +32,7 @@ export default {
 					{
 						type: "any",
 						import: data.arg,
+						styles: data.options?.styles ?? "",
 						data: { json: JSON.parse(body) },
 					},
 				];
