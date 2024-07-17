@@ -7,6 +7,7 @@ export default {
 			height: model.get("height"),
 			backgroundColor: "black",
 		});
+		// hard code closed for now
 		let viewer = await vizarr.createViewer(div, { menuOpen: false });
 		viewer.addImage({ source: model.get("source") });
 		el.appendChild(div);
