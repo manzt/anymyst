@@ -2,13 +2,12 @@ import * as vizarr from "https://hms-dbmi.github.io/vizarr/index.js";
 
 export default {
 	async render({ model, el }) {
-		console.log("vizarr", vizarr);
 		let div = document.createElement("div");
 		Object.assign(div.style, {
 			height: model.get("height"),
 			backgroundColor: "black",
 		});
-		let viewer = await vizarr.createViewer(div);
+		let viewer = await vizarr.createViewer(div, { menuOpen: false });
 		viewer.addImage({ source: model.get("source") });
 		el.appendChild(div);
 		return () => viewer.destory?.();
